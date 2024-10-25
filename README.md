@@ -1,11 +1,22 @@
 # Joker-Solution-Algorithm
-Proyek ini bertujuan untuk memecahkan masalah optimasi dan analisis data menggunakan dua pendekatan algoritma utama: Greedy dan Dynamic Programming. Proyek ini menghasilkan array secara acak, memvisualisasikannya dalam bentuk grafik, dan menyediakan pembuktian kesamaan antara dua array. Terdapat beberapa skrip Python dalam proyek ini yang memiliki fungsi berbeda:
 
-- grafiktubes.py: Menghasilkan grafik yang terkait dengan algoritma.
-- randomarr.py: Menghasilkan array acak sebagai contoh yang digunakan untuk grafik.
-- tubeshasil.py: Pembuktian dua array.
+Proyek ini bertujuan untuk memecahkan masalah optimasi dan analisis data dengan membandingkan dua pendekatan algoritma: satu menggunakan *stack* dan satu lagi tidak. Penggunaan *stack* diimplementasikan untuk mereduksi *worst-case* scenario, sehingga meningkatkan efisiensi kinerja algoritma.
 
-Fitur:
-- Visualisasi Data: Menyediakan grafik untuk memvisualisasikan hasil dari algoritma.
-- Pengacakan Data: Menghasilkan array acak yang dapat digunakan dalam pengujian algoritma.
-- Verifikasi Kesamaan: Menyediakan mekanisme untuk membuktikan kesamaan antara dua array.
+Proyek ini juga menghasilkan array secara acak, memvisualisasikannya dalam bentuk grafik, dan menyediakan mekanisme untuk memverifikasi kesamaan antara dua array. Beberapa skrip Python dengan fungsi spesifik disertakan dalam proyek ini:
+
+- **grafiktubes.py**: Menampilkan grafik hasil dari algoritma.
+- **randomarr.py**: Menghasilkan array acak untuk digunakan dalam pengujian.
+- **tubeshasil.py**: Membuktikan kesamaan antara dua array.
+
+## Fitur
+
+- **Perbandingan Algoritma**: Memungkinkan analisis komparatif antara algoritma dengan dan tanpa *stack*.
+- **Visualisasi Data**: Menyediakan grafik untuk memvisualisasikan hasil eksekusi algoritma.
+- **Pengacakan Data**: Menghasilkan array acak sebagai input pengujian.
+- **Verifikasi Kesamaan**: Menyediakan mekanisme untuk memeriksa apakah dua array identik.
+
+Proyek ini memberikan wawasan mendalam tentang perbedaan efisiensi dan kinerja antara dua metode, terutama dalam konteks penanganan kasus terburuk dengan memanfaatkan *stack*.
+
+Projek Merupakan tugas besar mata kuliah Analisis Kompleksitas Algoritma, dikerjakan oleh 2 orang :
+1. Muhammad Rafie Hamizan
+2. Ghazy Fadhal Ramadhan
